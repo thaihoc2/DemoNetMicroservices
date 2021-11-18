@@ -19,7 +19,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{D1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{1216FAA6-9CB4-45BD-952D-2B7BE0687DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{573B1905-A2AF-472B-9210-919C595E902E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Grpc", "Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{573B1905-A2AF-472B-9210-919C595E902E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonBlocks", "CommonBlocks", "{62FB0150-96FC-465C-85BE-7882557D7488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Logging", "CommonBlocks\Common.Logging\Common.Logging.csproj", "{CF5433BB-06E8-4DB7-91A9-2CB18609930C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "CommonBlocks\EventBus.Messages\EventBus.Messages.csproj", "{BFF7D5C2-F005-4555-8F78-2A67420A4285}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,14 @@ Global
 		{573B1905-A2AF-472B-9210-919C595E902E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{573B1905-A2AF-472B-9210-919C595E902E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{573B1905-A2AF-472B-9210-919C595E902E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5433BB-06E8-4DB7-91A9-2CB18609930C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5433BB-06E8-4DB7-91A9-2CB18609930C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5433BB-06E8-4DB7-91A9-2CB18609930C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5433BB-06E8-4DB7-91A9-2CB18609930C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF7D5C2-F005-4555-8F78-2A67420A4285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF7D5C2-F005-4555-8F78-2A67420A4285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF7D5C2-F005-4555-8F78-2A67420A4285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF7D5C2-F005-4555-8F78-2A67420A4285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +73,8 @@ Global
 		{D112F29D-603B-4133-BBC4-D7A0B38643F1} = {83311120-9770-4028-9462-95D73F258BA3}
 		{1216FAA6-9CB4-45BD-952D-2B7BE0687DA8} = {D112F29D-603B-4133-BBC4-D7A0B38643F1}
 		{573B1905-A2AF-472B-9210-919C595E902E} = {D112F29D-603B-4133-BBC4-D7A0B38643F1}
+		{CF5433BB-06E8-4DB7-91A9-2CB18609930C} = {62FB0150-96FC-465C-85BE-7882557D7488}
+		{BFF7D5C2-F005-4555-8F78-2A67420A4285} = {62FB0150-96FC-465C-85BE-7882557D7488}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9391323A-A1DD-4537-A28C-A057A0A8B18F}
